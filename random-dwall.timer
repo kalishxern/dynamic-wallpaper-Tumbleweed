@@ -1,0 +1,9 @@
+[Unit]
+Description=Run random-dwall hourly
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+
+[Install]
+WantedBy=timers.target
